@@ -1,0 +1,8 @@
+Feature: Home page
+  As a team lead, when we correct login information,
+  I should be able to login and see the homepage
+
+  Scenario: login as team lead
+    Given user is on the login page
+    When user logs in as the team lead
+    Then homepage should be displayed
